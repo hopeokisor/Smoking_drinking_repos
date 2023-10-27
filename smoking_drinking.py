@@ -202,9 +202,9 @@ def main():
         with interpret:
             st.subheader('Model Interpretation')
             if prediction == 0:
-                st.write(['Due to all the variables identified, the result shows that you are a "DRUNKARD'])
+                st.write(['Due to all the variables identified, the result shows that you are an "HEAVY DRINKER"'])
             elif prediction == 1:
-                st.write(['Due to all the variables identified, the result shows that you are not a "DRUNKARD"'])  
+                st.write(['Due to all the variables identified, the result shows that you are not a "NON DRINKER"'])  
                           
   
 
